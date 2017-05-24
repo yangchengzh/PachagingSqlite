@@ -1,16 +1,13 @@
 //
-//  ViewController.h
+//  PersonModel.m
 //  PachagingSqlite
 //
 //  Created by 蓝云 on 2017/5/23.
 //  Copyright © 2017年 yangzhi. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "PersonModel.h"
 
-
-@interface ViewController : UIViewController
-
+@implementation PersonModel
 
 @end
-

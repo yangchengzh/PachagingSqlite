@@ -15,6 +15,17 @@
 		683CE1BD1ED3C7450056923D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683CE1BB1ED3C7450056923D /* LaunchScreen.storyboard */; };
 		683CE1C81ED3C7450056923D /* PachagingSqliteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 683CE1C71ED3C7450056923D /* PachagingSqliteTests.m */; };
 		683CE1D31ED3C7450056923D /* PachagingSqliteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 683CE1D21ED3C7450056923D /* PachagingSqliteUITests.m */; };
+		683CE1E21ED3C7760056923D /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 683CE1E11ED3C7760056923D /* libsqlite3.0.tbd */; };
+		683CE1E81ED3F7E40056923D /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 683CE1E71ED3F7E40056923D /* PersonModel.m */; };
+		683CE1EB1ED40CF80056923D /* SqliteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 683CE1EA1ED40CF80056923D /* SqliteManager.m */; };
+		68BE4D681ED533EC00D7FA2B /* InaertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BE4D661ED533EC00D7FA2B /* InaertViewController.m */; };
+		68BE4D691ED533EC00D7FA2B /* InaertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68BE4D671ED533EC00D7FA2B /* InaertViewController.xib */; };
+		68BE4D6D1ED534C300D7FA2B /* DeleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BE4D6B1ED534C300D7FA2B /* DeleteViewController.m */; };
+		68BE4D6E1ED534C300D7FA2B /* DeleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68BE4D6C1ED534C300D7FA2B /* DeleteViewController.xib */; };
+		68BE4D721ED535AE00D7FA2B /* UpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BE4D701ED535AE00D7FA2B /* UpdateViewController.m */; };
+		68BE4D731ED535AE00D7FA2B /* UpdateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68BE4D711ED535AE00D7FA2B /* UpdateViewController.xib */; };
+		68BE4D771ED5366600D7FA2B /* SeleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BE4D751ED5366600D7FA2B /* SeleteViewController.m */; };
+		68BE4D781ED5366600D7FA2B /* SeleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68BE4D761ED5366600D7FA2B /* SeleteViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,23 @@
 		683CE1CE1ED3C7450056923D /* PachagingSqliteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PachagingSqliteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		683CE1D21ED3C7450056923D /* PachagingSqliteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PachagingSqliteUITests.m; sourceTree = "<group>"; };
 		683CE1D41ED3C7450056923D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683CE1E11ED3C7760056923D /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		683CE1E61ED3F7E40056923D /* PersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
+		683CE1E71ED3F7E40056923D /* PersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonModel.m; sourceTree = "<group>"; };
+		683CE1E91ED40CF80056923D /* SqliteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteManager.h; sourceTree = "<group>"; };
+		683CE1EA1ED40CF80056923D /* SqliteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteManager.m; sourceTree = "<group>"; };
+		68BE4D651ED533EC00D7FA2B /* InaertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InaertViewController.h; sourceTree = "<group>"; };
+		68BE4D661ED533EC00D7FA2B /* InaertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InaertViewController.m; sourceTree = "<group>"; };
+		68BE4D671ED533EC00D7FA2B /* InaertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InaertViewController.xib; sourceTree = "<group>"; };
+		68BE4D6A1ED534C300D7FA2B /* DeleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteViewController.h; sourceTree = "<group>"; };
+		68BE4D6B1ED534C300D7FA2B /* DeleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteViewController.m; sourceTree = "<group>"; };
+		68BE4D6C1ED534C300D7FA2B /* DeleteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeleteViewController.xib; sourceTree = "<group>"; };
+		68BE4D6F1ED535AE00D7FA2B /* UpdateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateViewController.h; sourceTree = "<group>"; };
+		68BE4D701ED535AE00D7FA2B /* UpdateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateViewController.m; sourceTree = "<group>"; };
+		68BE4D711ED535AE00D7FA2B /* UpdateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpdateViewController.xib; sourceTree = "<group>"; };
+		68BE4D741ED5366600D7FA2B /* SeleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeleteViewController.h; sourceTree = "<group>"; };
+		68BE4D751ED5366600D7FA2B /* SeleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeleteViewController.m; sourceTree = "<group>"; };
+		68BE4D761ED5366600D7FA2B /* SeleteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeleteViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				683CE1E21ED3C7760056923D /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +114,7 @@
 				683CE1C61ED3C7450056923D /* PachagingSqliteTests */,
 				683CE1D11ED3C7450056923D /* PachagingSqliteUITests */,
 				683CE1AB1ED3C7450056923D /* Products */,
+				683CE1E01ED3C7760056923D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +135,22 @@
 				683CE1B11ED3C7450056923D /* AppDelegate.m */,
 				683CE1B31ED3C7450056923D /* ViewController.h */,
 				683CE1B41ED3C7450056923D /* ViewController.m */,
+				683CE1E61ED3F7E40056923D /* PersonModel.h */,
+				683CE1E71ED3F7E40056923D /* PersonModel.m */,
+				683CE1E91ED40CF80056923D /* SqliteManager.h */,
+				683CE1EA1ED40CF80056923D /* SqliteManager.m */,
+				68BE4D651ED533EC00D7FA2B /* InaertViewController.h */,
+				68BE4D661ED533EC00D7FA2B /* InaertViewController.m */,
+				68BE4D671ED533EC00D7FA2B /* InaertViewController.xib */,
+				68BE4D6A1ED534C300D7FA2B /* DeleteViewController.h */,
+				68BE4D6B1ED534C300D7FA2B /* DeleteViewController.m */,
+				68BE4D6C1ED534C300D7FA2B /* DeleteViewController.xib */,
+				68BE4D6F1ED535AE00D7FA2B /* UpdateViewController.h */,
+				68BE4D701ED535AE00D7FA2B /* UpdateViewController.m */,
+				68BE4D711ED535AE00D7FA2B /* UpdateViewController.xib */,
+				68BE4D741ED5366600D7FA2B /* SeleteViewController.h */,
+				68BE4D751ED5366600D7FA2B /* SeleteViewController.m */,
+				68BE4D761ED5366600D7FA2B /* SeleteViewController.xib */,
 				683CE1B61ED3C7450056923D /* Main.storyboard */,
 				683CE1B91ED3C7450056923D /* Assets.xcassets */,
 				683CE1BB1ED3C7450056923D /* LaunchScreen.storyboard */,
@@ -138,6 +184,14 @@
 				683CE1D41ED3C7450056923D /* Info.plist */,
 			);
 			path = PachagingSqliteUITests;
+			sourceTree = "<group>";
+		};
+		683CE1E01ED3C7760056923D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				683CE1E11ED3C7760056923D /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +300,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BE4D6E1ED534C300D7FA2B /* DeleteViewController.xib in Resources */,
 				683CE1BD1ED3C7450056923D /* LaunchScreen.storyboard in Resources */,
 				683CE1BA1ED3C7450056923D /* Assets.xcassets in Resources */,
 				683CE1B81ED3C7450056923D /* Main.storyboard in Resources */,
+				68BE4D691ED533EC00D7FA2B /* InaertViewController.xib in Resources */,
+				68BE4D781ED5366600D7FA2B /* SeleteViewController.xib in Resources */,
+				68BE4D731ED535AE00D7FA2B /* UpdateViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +331,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				683CE1E81ED3F7E40056923D /* PersonModel.m in Sources */,
+				68BE4D681ED533EC00D7FA2B /* InaertViewController.m in Sources */,
 				683CE1B51ED3C7450056923D /* ViewController.m in Sources */,
+				68BE4D721ED535AE00D7FA2B /* UpdateViewController.m in Sources */,
+				683CE1EB1ED40CF80056923D /* SqliteManager.m in Sources */,
+				68BE4D6D1ED534C300D7FA2B /* DeleteViewController.m in Sources */,
 				683CE1B21ED3C7450056923D /* AppDelegate.m in Sources */,
+				68BE4D771ED5366600D7FA2B /* SeleteViewController.m in Sources */,
 				683CE1AF1ED3C7450056923D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +571,7 @@
 				683CE1D91ED3C7450056923D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		683CE1DA1ED3C7450056923D /* Build configuration list for PBXNativeTarget "PachagingSqliteTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +580,7 @@
 				683CE1DC1ED3C7450056923D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		683CE1DD1ED3C7450056923D /* Build configuration list for PBXNativeTarget "PachagingSqliteUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +589,7 @@
 				683CE1DF1ED3C7450056923D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
